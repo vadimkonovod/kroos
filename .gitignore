@@ -3,3 +3,4 @@ target/
 build/
 src/main/java/main/bot/
 src/main/java/resources/
+*.iml

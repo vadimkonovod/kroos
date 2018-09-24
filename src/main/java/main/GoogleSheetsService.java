@@ -95,32 +95,4 @@ public class GoogleSheetsService {
         .build();
   }
 
-  public static void main(String[] args) throws IOException {
-    /*// Build a new authorized API client service.
-    Sheets service = getSheetsService();
-
-    // Prints the names and majors of students in a sample spreadsheet:
-    // https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit
-    String spreadsheetId = "1I8i4v13wbr8l12Z7bIOhUVsw48vIwHJPwe8bu-KCIeI";
-    String range = "Main Page!A1:C";
-    ValueRange response = service.spreadsheets().values()
-        .get(spreadsheetId, range)
-        .execute();
-    List<List<Object>> values = response.getValues();
-    if (values == null || values.size() == 0) {
-      System.out.println("No data found.");
-    } else {
-      System.out.println("Name, Major");
-      for (List row : values) {
-        // Print columns A and E, which correspond to indices 0 and 4.
-        System.out.printf("%s, %s\n", row.get(0), row.get(2));
-      }
-    }
-
-    List<List<Object>> values = Arrays.asList(Arrays.asList("yes"));
-    ValueRange body = new ValueRange().setValues(values);
-
-    service.spreadsheets().values().update(spreadsheetId, "Main Page!A1", body).setValueInputOption("RAW").execute();*/
-  }
-
 }

@@ -1,6 +1,6 @@
 package main;
 
-import main.bot.core.JTelegramBot;
+import main.botlib.core.JTelegramBot;
 
 import java.io.IOException;
 
